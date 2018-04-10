@@ -1,4 +1,5 @@
 <?php
+//分支rose
 error_reporting(7);
 // Version
 define('VERSION', '1.0'); 
