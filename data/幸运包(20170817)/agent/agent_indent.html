@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>群订单</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/tab.js"></script>
+</head>
+<body style="width:10rem !important; margin:0 auto;">
+<script>
+/*取设备宽度*/
+function rem(){
+	var iWidth=document.documentElement.getBoundingClientRect().width;
+	iWidth=iWidth>640?640:iWidth;
+	document.getElementsByTagName("html")[0].style.fontSize=iWidth/10+"px";
+};
+rem();
+window.onorientationchange=window.onresize=rem      
+</script>
+<div class="agent-public-header">
+    <a href="index.html" class="return"></a>
+    <div class="headline">群订单</div>
+</div>
+    
+<div class="agent-indent">
+    <ul class="agent-indent-tab">
+    	<li>最新订单</li>
+        <li>待确认</li>
+        <li>已完成</li>
+    </ul>
+    
+    <!--最新订单-->
+    <div class="agent-indent-cont">
+
+        <dl>
+        	<dt><img src="../images/img001.png" /></dt>
+            <dd class="dd-one">
+                <ul>
+                    <li>房&emsp;主：冯国枫</li>
+                    <li>手机号：15862002500</li>
+                    <li>充值币：<span>15000个</span></li>
+                    <li>时&emsp;间：2017.05.25 10：30</li>
+                    <li>状&emsp;态：<span>未处理</span></li>
+                </ul>
+            </dd>
+            <dd class="dd-two">
+            	<a href="#">充值</a>
+            </dd>
+        </dl>
+        
+        <dl>
+        	<dt><img src="../images/img001.png" /></dt>
+            <dd class="dd-one">
+                <ul>
+                    <li>房&emsp;主：冯国枫</li>
+                    <li>手机号：15862002500</li>
+                    <li>充值币：<span>15000个</span></li>
+                    <li>时&emsp;间：2017.05.25 10：30</li>
+                    <li>状&emsp;态：<span>未处理</span></li>
+                </ul>
+            </dd>
+            <dd class="dd-two">
+            	<a href="#">充值</a>
+            </dd>
+        </dl>
+        
+        <dl>
+        	<dt><img src="../images/img001.png" /></dt>
+            <dd class="dd-one">
+                <ul>
+                    <li>房&emsp;主：冯国枫</li>
+                    <li>手机号：15862002500</li>
+                    <li>充值币：<span>15000个</span></li>
+                    <li>时&emsp;间：2017.05.25 10：30</li>
+                    <li>状&emsp;态：<span>未处理</span></li>
+                </ul>
+            </dd>
+            <dd class="dd-two">
+            	<a href="#">充值</a>
+            </dd>
+        </dl>
+        
+    </div><!--/agent-indent-cont-->
+    
+    
+    <!--待确认-->
+    <div class="agent-indent-cont">
+
+        <dl>
+        	<dt><img src="../images/img001.png" /></dt>
+            <dd class="dd-one">
+                <ul>
+                    <li>房&emsp;主：冯国枫2</li>
+                    <li>手机号：15862002500</li>
+                    <li>充值币：<span>15000个</span></li>
+                    <li>时&emsp;间：2017.05.25 10：30</li>
+                    <li>状&emsp;态：<span class="green">待用户确认</span></li>
+                </ul>
+            </dd>
+            <dd class="dd-two">
+            	<a href="#">待确认</a>
+            </dd>
+        </dl>
+        
+        <dl>
+        	<dt><img src="../images/img001.png" /></dt>
+            <dd class="dd-one">
+                <ul>
+                    <li>房&emsp;主：冯国枫</li>
+                    <li>手机号：15862002500</li>
+                    <li>充值币：<span>15000个</span></li>
+                    <li>时&emsp;间：2017.05.25 10：30</li>
+                    <li>状&emsp;态：<span class="green">待用户确认</span></li>
+                </ul>
+            </dd>
+            <dd class="dd-two">
+            	<a href="#">待确认</a>
+            </dd>
+        </dl>
+        
+        <dl>
+        	<dt><img src="../images/img001.png" /></dt>
+            <dd class="dd-one">
+                <ul>
+                    <li>房&emsp;主：冯国枫</li>
+                    <li>手机号：15862002500</li>
+                    <li>充值币：<span>15000个</span></li>
+                    <li>时&emsp;间：2017.05.25 10：30</li>
+                    <li>状&emsp;态：<span class="green">待用户确认</span></li>
+                </ul>
+            </dd>
+            <dd class="dd-two">
+            	<a href="#">待确认</a>
+            </dd>
+        </dl>
+        
+    </div><!--/agent-indent-cont-->
+    
+    <!--已完成-->
+    <div class="agent-indent-cont">
+
+        <dl>
+        	<dt><img src="../images/img001.png" /></dt>
+            <dd class="dd-one">
+                <ul>
+                    <li>房&emsp;主：冯国枫3</li>
+                    <li>手机号：15862002500</li>
+                    <li>充值币：<span>15000个</span></li>
+                    <li>时&emsp;间：2017.05.25 10：30</li>
+                    <li>状&emsp;态：<span>已完成</span></li>
+                    <li>完&emsp;成：2017.05.25 10：30</li>
+                </ul>
+            </dd>
+            <dd class="dd-two">
+            	<a href="#" class="gray">已完成</a>
+            </dd>
+        </dl>
+        
+        <dl>
+        	<dt><img src="../images/img001.png" /></dt>
+            <dd class="dd-one">
+                <ul>
+                    <li>房&emsp;主：冯国枫</li>
+                    <li>手机号：15862002500</li>
+                    <li>充值币：<span>15000个</span></li>
+                    <li>时&emsp;间：2017.05.25 10：30</li>
+                    <li>状&emsp;态：<span>已完成</span></li>
+                    <li>完&emsp;成：2017.05.25 10：30</li>
+                </ul>
+            </dd>
+            <dd class="dd-two">
+            	<a href="#" class="gray">已完成</a>
+            </dd>
+        </dl>
+        
+        <dl>
+        	<dt><img src="../images/img001.png" /></dt>
+            <dd class="dd-one">
+                <ul>
+                    <li>房&emsp;主：冯国枫</li>
+                    <li>手机号：15862002500</li>
+                    <li>充值币：<span>15000个</span></li>
+                    <li>时&emsp;间：2017.05.25 10：30</li>
+                    <li>状&emsp;态：<span>已完成</span></li>
+                    <li>完&emsp;成：2017.05.25 10：30</li>
+                </ul>
+            </dd>
+            <dd class="dd-two">
+            	<a href="#" class="gray">已完成</a>
+            </dd>
+        </dl>
+        
+    </div><!--/agent-indent-cont-->
+    
+    
+</div><!--/agent-list-->
+</body>
+</html>
+
+

@@ -1,0 +1,23 @@
+user_convert   兑换
+
+user_roomInfor 房间资料
+
+user_myInfor   我的资料
+
+user_member    群成员
+ 
+user_part      参与中
+
+share          分享
+
+room           进入房间
+
+user_rule      游戏规则
+
+playing        游戏中
+
+result         结果
+
+collect        收藏房间
+
+ayabeni        彩红屋

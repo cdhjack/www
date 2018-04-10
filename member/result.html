@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>游戏结果</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/tab.js"></script>
+</head>
+<body style="width:10rem !important; margin:0 auto;">
+<script>
+/*取设备宽度*/
+function rem(){
+	var iWidth=document.documentElement.getBoundingClientRect().width;
+	iWidth=iWidth>640?640:iWidth;
+	document.getElementsByTagName("html")[0].style.fontSize=iWidth/10+"px";
+};
+rem();
+window.onorientationchange=window.onresize=rem      
+</script>
+<div class="user-public-header">
+    <a href="index.html" class="return"></a>
+    <div class="headline">游戏结果</div>
+</div>
+
+<div class="user">   
+    <div class="game">
+        
+        <div class="game-box result-box">
+            <dl>
+                <dt><img src="../images/img003.png" /></dt>
+                <dd>
+                    <h1><a href="user_roomInfor.html">美美彩红屋【1000彩红猫】</a></h1>
+                    <ul>
+                        <li>微信群：meimeiguoyuan</li>
+                        <li>群人数：<span>560位</span></li>
+                    </ul>
+                </dd>
+            </dl>
+            <div class="game-bar">
+                <div class="game-bar-lt">
+                    <ul>
+                        <li class="li1">
+                            <i>15000</i>
+                            <span>我的彩币</span>
+                        </li>
+                        <li class="li2">
+                            <div class="progress">
+                                <progress class="progress4" string="12" value="100" max="100"></progress>
+                                <i>20/20</i>
+                            </div>
+                            <span>游戏进度</span>
+                        </li>
+                        <li class="li3">
+                            <i>150个</i>
+                            <span>我的游戏</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="game-bar-rt"><a href="room.html" class="join-game"></a></div>
+            </div>
+        </div><!--/game-box-->
+        
+        <div class="game-box result-box">
+            <dl>
+                <dt><img src="../images/img003.png" /></dt>
+                <dd>
+                    <h1><a href="user_roomInfor.html">美美彩红屋【1000彩红猫】</a></h1>
+                    <ul>
+                        <li>微信群：meimeiguoyuan</li>
+                        <li>群人数：<span>560位</span></li>
+                    </ul>
+                </dd>
+            </dl>
+            <div class="game-bar">
+                <div class="game-bar-lt">
+                    <ul>
+                        <li class="li1">
+                            <i>15000</i>
+                            <span>我的彩币</span>
+                        </li>
+                        <li class="li2">
+                            <div class="progress">
+                                <progress class="progress4" string="12" value="100" max="100"></progress>
+                                <i>20/20</i>
+                            </div>
+                            <span>游戏进度</span>
+                        </li>
+                        <li class="li3">
+                            <i>150个</i>
+                            <span>我的游戏</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="game-bar-rt"><a href="room.html" class="join-game"></a></div>
+            </div>
+        </div><!--/game-box-->
+ 
+    </div><!--/game-->
+
+</body>
+</html>
+
+

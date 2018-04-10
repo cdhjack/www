@@ -1,0 +1,21 @@
+owner_recharge    成员列表 -充值
+
+owner_list        成员列表
+
+owner_indent      订单
+
+owner_addMember   添加成员
+
+owner_rainbow     我的彩虹币
+
+owner_apply       申请代理商
+
+owner_invitation  邀请码
+
+owner_event       发起赛事
+
+owner_addEvent    添加赛事
+
+owner_infor       房间资料
+
+owner_history     历史

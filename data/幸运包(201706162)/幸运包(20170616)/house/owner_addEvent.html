@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>添加新赛事</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/tab.js"></script>
+</head>
+<body style="width:10rem !important; margin:0 auto;">
+<script>
+/*取设备宽度*/
+function rem(){
+	var iWidth=document.documentElement.getBoundingClientRect().width;
+	iWidth=iWidth>640?640:iWidth;
+	document.getElementsByTagName("html")[0].style.fontSize=iWidth/10+"px";
+};
+rem();
+window.onorientationchange=window.onresize=rem      
+</script>
+<div class="owner-public-header">
+    <a href="index.html" class="return"></a>
+    <div class="headline">添加新赛事</div>
+</div>
+    
+<div class="owner-addEvent">
+	<form action="#" method="post">
+        <select>
+            <option>选择赛事类型：</option>
+        </select>
+        <select>
+            <option>彩包数量：</option>
+        </select>
+        
+        <h1 class="consume">本次需消耗彩红币<span>400</span></h1>
+        
+        <input type="button" class="btn eventBtn" value="确认开赛" />
+    </form>
+</div><!--/owner-addEvent-->
+
+<div class="succeed">
+	<span class="succeed-colse"></span>
+	<dl>
+    	<dt></dt>
+        <dd>开赛成功</dd>
+    </dl>
+    <p>本次消耗彩虹币：2个</p>
+</div><!--/succeed-->
+
+</body>
+</html>
+
+

@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>申请代理商</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<script src="../js/jquery-1.11.3.min.js"></script>
+</head>
+<body style="width:10rem !important; margin:0 auto;">
+<script>
+/*取设备宽度*/
+function rem(){
+	var iWidth=document.documentElement.getBoundingClientRect().width;
+	iWidth=iWidth>640?640:iWidth;
+	document.getElementsByTagName("html")[0].style.fontSize=iWidth/10+"px";
+};
+rem();
+window.onorientationchange=window.onresize=rem      
+</script>
+<div class="owner-public-header">
+    <a href="index.html" class="return"></a>
+    <div class="headline">申请代理商</div>
+</div>
+    
+<div class="owner-apply">
+	<dl class="owner-apply-top">
+    	<dt><img src="../images/img004.jpg" /></dt>
+        <dd>
+        	<a href="javascript:;" class="upload1">
+                上传身份证
+                <input class="change1" type="file" multiple />
+            </a>
+        </dd>
+    </dl>
+
+    <form action="#" method="post">
+   	    <p><label>房间名：</label><input type="text" placeholder="我的未来不是萌" /></p>
+    	<p><label>申请人：</label><input type="text" placeholder="冯国枫" /></p>
+        <p><label>微信号：</label><input type="text" placeholder="上传二维码" /></p>
+        <p><label>电   话：</label><input type="text" placeholder="186125852000" /></p>
+        <p><label>身份证：</label><input type="text" placeholder="18612530876人" /></p>
+        <input type="button" value="确认申请" class="btn" />
+    </form>
+    
+    
+    
+</div><!--/owner-apply-->
+</body>
+</html>
+
+

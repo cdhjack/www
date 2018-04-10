@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首页</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<script src="../js/jquery-1.11.3.min.js"></script>
+</head>
+<body style="width:10rem !important; margin:0 auto;">
+<script>
+/*取设备宽度*/
+function rem(){
+	var iWidth=document.documentElement.getBoundingClientRect().width;
+	iWidth=iWidth>640?640:iWidth;
+	document.getElementsByTagName("html")[0].style.fontSize=iWidth/10+"px";
+};
+rem();
+window.onorientationchange=window.onresize=rem      
+</script>
+<div class="owner">
+    <div class="owner-header">
+        <div class="owner-top">
+            <div class="headline">
+                <h1>房主管理</h1><a href="#" class="quit"><i></i>退出</a>
+            </div>
+            
+            <dl>
+                <dt><img src="../images/img002.jpg" /></dt>
+                <dd class="dd-one">
+                	<h1>XIMAO1979</h1>
+                    <p>身份： 房主</p>
+                </dd>
+                <dd class="dd-two"><a href="owner_infor.html">编辑信息</a></dd>
+            </dl>  
+        </div><!--/owner-top-->
+        <ul>
+            <li><b>150000</b>我的金币</li>
+            <li><b>150000</b>所有房主</li>
+            <li><b>150</b>今日订单</li>
+        </ul>
+    </div><!--/owner-header-->
+    
+    <div class="owner-cont">
+    	<dl>
+        	<a href="owner_event.html">
+                <dt><img src="../images/icon012.png" /></dt>
+                <dd>我的比赛</dd>
+            </a>
+        </dl>
+        <dl>
+        	<a href="owner_list.html">
+                <dt><img src="../images/icon013.png" /></dt>
+                <dd>房间成员</dd>
+            </a>
+        </dl>
+        <dl>
+        	<a href="owner_invitation.html">
+                <dt><img src="../images/icon014.png" /></dt>
+                <dd>邀请码</dd>
+            </a>
+        </dl>
+        <dl>
+        	<a href="owner_rainbow.html">
+                <dt><img src="../images/icon015.png" /></dt>
+                <dd>我的彩红币</dd>
+            </a>
+        </dl>
+        <dl>
+        	<a href="owner_indent.html">
+                <dt><img src="../images/icon016.png" /></dt>
+                <dd>群订单</dd>
+            </a>
+        </dl>
+        <dl>
+        	<a href="owner_apply.html">
+                <dt><img src="../images/icon017.png" /></dt>
+                <dd>申请代理商</dd>
+            </a>
+        </dl>
+    </div>
+    
+    <div class="owner-footer">
+        <dl>
+        	<a href="owner_indent.html">
+                <dt></dt>
+                <dd>最新订单</dd>
+            </a>
+        </dl>
+        <dl class="gold">
+        	<a href="owner_addEvent.html">
+                <dt></dt>
+                <dd>发起比赛</dd>
+            </a>
+        </dl>
+        <dl>
+        	<a href="owner_addMember.html">
+                <dt></dt>
+                <dd>添加成员</dd>
+            </a>
+        </dl>
+    </div><!--/owner-footer-->
+</div>
+</body>
+</html>
+
+

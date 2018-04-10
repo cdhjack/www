@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>我的房主</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<script src="../js/jquery-1.11.3.min.js"></script>
+</head>
+<body style="width:10rem !important; margin:0 auto;">
+<script>
+/*取设备宽度*/
+function rem(){
+	var iWidth=document.documentElement.getBoundingClientRect().width;
+	iWidth=iWidth>640?640:iWidth;
+	document.getElementsByTagName("html")[0].style.fontSize=iWidth/10+"px";
+};
+rem();
+window.onorientationchange=window.onresize=rem      
+</script>
+<div class="agent-public-header">
+    <a href="index.html" class="return"></a>
+    <div class="headline">我的房主</div>
+</div>
+    
+<div class="agent-list">
+    
+    <div class="agent-list-search">
+    	<input type="text" class="text" placeholder="请输入微信号、手机号" />
+        <input type="button" class="btn" />
+    </div>
+    
+    <div class="agent-list-cont">
+
+        <dl>
+        	<dt><img src="../images/img001.png" /></dt>
+            <dd class="dd-one">
+            	<h1>我的未来不是萌</h1>
+                <ul>
+                	<li>手机号：15862002500</li>
+                    <li>房主名：冯国枫</li>
+                </ul>
+            </dd>
+            <dd class="dd-two">
+            	<a href="agent_show.html">详细</a>
+                <a href="agent_recharge.html">充值</a>
+            </dd>
+        </dl>
+        
+        <dl>
+        	<dt><img src="../images/img001.png" /></dt>
+            <dd class="dd-one">
+            	<h1>我的未来不是萌</h1>
+                <ul>
+                	<li>手机号：15862002500</li>
+                    <li>房主名：冯国枫</li>
+                </ul>
+            </dd>
+            <dd class="dd-two">
+            	<a href="agent_show.html">详细</a>
+                <a href="agent_recharge.html">充值</a>
+            </dd>
+        </dl>
+        
+        <dl>
+        	<dt><img src="../images/img001.png" /></dt>
+            <dd class="dd-one">
+            	<h1>我的未来不是萌</h1>
+                <ul>
+                	<li>手机号：15862002500</li>
+                    <li>房主名：冯国枫</li>
+                </ul>
+            </dd>
+            <dd class="dd-two">
+            	<a href="agent_show.html">详细</a>
+                <a href="agent_recharge.html">充值</a>
+            </dd>
+        </dl>
+        
+        <dl>
+        	<dt><img src="../images/img001.png" /></dt>
+            <dd class="dd-one">
+            	<h1>我的未来不是萌</h1>
+                <ul>
+                	<li>手机号：15862002500</li>
+                    <li>房主名：冯国枫</li>
+                </ul>
+            </dd>
+            <dd class="dd-two">
+            	<a href="agent_show.html">详细</a>
+                <a href="agent_recharge.html">充值</a>
+            </dd>
+        </dl>
+        
+    </div>
+    
+    
+</div><!--/agent-list-->
+</body>
+</html>
+
+

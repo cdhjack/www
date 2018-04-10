@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首页</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<script src="../js/jquery-1.11.3.min.js"></script>
+</head>
+<body style="width:10rem !important; margin:0 auto;">
+<script>
+/*取设备宽度*/
+function rem(){
+	var iWidth=document.documentElement.getBoundingClientRect().width;
+	iWidth=iWidth>640?640:iWidth;
+	document.getElementsByTagName("html")[0].style.fontSize=iWidth/10+"px";
+};
+rem();
+window.onorientationchange=window.onresize=rem      
+</script>
+<div class="agent">
+    <div class="agent-header">
+        <div class="agent-top">
+            <div class="headline">
+                <h1>代理商管理</h1><a href="#" class="quit"><i></i>退出</a>
+            </div>
+            
+            <dl>
+                <dt><img src="../images/img002.jpg" /></dt>
+                <dd class="dd-one">
+                	<h1>XIMAO1979</h1>
+                    <p>身份： 房主</p>
+                </dd>
+                <dd class="dd-two"><a href="agent_infor.html">编辑信息</a></dd>
+            </dl>   
+        </div><!--/agent-top-->
+        <ul>
+            <li><b>150000</b>我的金币</li>
+            <li><b>150000</b>所有房主</li>
+            <li><b>150</b>充币订单</li>
+        </ul>
+    </div><!--/agent-header-->
+    
+    <div class="agent-cont">
+    	<ul>
+            <li><span><i></i></span><a href="agent_rainbow.html">我的彩红币</a></li>
+            <li><span><i></i></span><a href="agent_list.html">所有房主</a></li>
+            <li><span><i></i></span><a href="agent_indent.html">充币订单</a></li>
+            <li><span><i></i></span><a href="agent_name.html">账号管理</a></li>
+        </ul>
+    </div><!--/agent-cont-->
+    
+    <div class="agent-footer">
+        <ul>
+            <li><a href="agent_recharge.html">充值订单</a></li>
+            <li><a href="agent_addMember.html">添加房主</a></li>
+        </ul>
+    </div><!--/agent-footer-->
+</div>
+</body>
+</html>
+
+

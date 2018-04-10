@@ -1,0 +1,11 @@
+agent_recharge   成员列表 -充值
+
+agent_list       成员列表
+
+agent_indent     订单
+
+agent_addMember  添加成员
+
+agent_rainbow    我的彩虹币
+
+agent_infor      房间资料
