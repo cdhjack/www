@@ -1,5 +1,5 @@
 <?php
-//合并分支
+//合并分支//
 error_reporting(7);
 // Version
 define('VERSION', '1.0'); 
