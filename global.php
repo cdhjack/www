@@ -1,5 +1,5 @@
 <?php
-//分支rose
+//分支jack
 error_reporting(7);
 // Version
 define('VERSION', '1.0'); 
