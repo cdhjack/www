@@ -1,8 +1,9 @@
 <?php
+//主干master
 error_reporting(7);
 // Version
 define('VERSION', '1.0'); 
-//主干master
+
 
 // Configuration
 if (file_exists(dirname(__FILE__).'/config/config.inc.php')) {
