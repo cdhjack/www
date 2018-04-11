@@ -1,5 +1,6 @@
-<?php
+﻿<?php
 //主干master
+//分支rose
 error_reporting(7);
 // Version
 define('VERSION', '1.0'); 
