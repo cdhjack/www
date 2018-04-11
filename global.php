@@ -1,4 +1,6 @@
 <?php
+//分支rose
+//测试分支合并
 error_reporting(7);
 // Version
 define('VERSION', '1.0'); 
